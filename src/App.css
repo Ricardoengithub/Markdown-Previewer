@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  width: 90%;
+  margin: 5%;
+  background-color: whitesmoke;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#preview{
+  min-width: 300px;
+  max-width: 500px;
+  padding: 1% 1%;
+  margin-left: 5%;
+}
+textarea{
+  min-width: 300px;
+  max-width: 500px;
+  padding: 2% 1%;
+  height: 400px;
+}
